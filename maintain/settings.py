@@ -25,12 +25,13 @@ SECRET_KEY = "django-insecure-h%(s!ykkv-k*mca66yzl4#^vy@ml5taq^$+a))77^e#e6a*obu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["82.112.227.171", "www.nixstays.com", "nixstays.com", "127.0.0.1"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    "main",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
